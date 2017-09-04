@@ -1,0 +1,10 @@
+
+* ODBC Error
+- ~sudo apt-get install unixodbc-dev libiodbc2-dev~
+* fop missing
+- ~sudo apt-get install fop~
+
+./otp_build autoconf
+./configure
+make -j4
+sudo make install
